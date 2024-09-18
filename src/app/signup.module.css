@@ -1,0 +1,99 @@
+/* src/app/signup/signup.module.css */
+.style{
+width: 100vw;
+height: 100vh;
+background-color: #2c2c2c;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.container {
+display: flex;
+height: 450px;
+background-color: #573b8a;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+flex-direction: column;
+width: max-content;
+border-radius: 10px;
+box-shadow: 1px 2px 20px white;
+}
+
+.signup{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.label {
+  color: #2c2c2c;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.input {
+width: 80%;
+height: 40px;
+background: #2c2c2c;
+justify-content: center;
+display: flex;
+margin: 20px auto;
+padding: 12px;
+color: white;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
+.button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  box-shadow: 5px 20px 50px #000;
+
+}
+.loginButton{
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #2c2c2c;
+  background-color:#573b8a ;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.button:hover {
+  background: #6d44b8;
+}
+.loginButton:hover{
+  background: #6d44b8;
+  box-shadow: 5px 20px 50px wheat;
+
+}
